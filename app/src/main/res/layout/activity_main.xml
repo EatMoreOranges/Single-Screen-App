@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="0dp"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_margin="5dp"
+            android:text="Quiztopia"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_orange_dark"
+            android:background="@drawable/laptop"
+            android:textSize="40dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/hiring"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:text="We're Hiring!!!"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hiring"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="At QuizTopia we've created a platform that lets users around the world create quiz and challenge each other's knowldge on a variety of topics using these quized."
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/description2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="If you want to help make QuizTopia a utopia for quiz lovers contact us now!"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/visit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description2"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:text="In Town? Come Visit Us!!"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/visit"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:text="1950 Charleston Rd (Googleplex Basement)"
+                android:textColor="@android:color/black"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/hoo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/address"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:text="Hours of Operation:"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/hours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hoo"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:text="7pm-3am"
+                android:textColor="@android:color/black"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/cService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hours"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:text="Customer Service: "
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cService"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:text="(713-333-4321)"
+                android:textColor="@android:color/black"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/emailUs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phone"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:text="Email Us Your Questions"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/emailUs"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:text="Nooblers.googlegroup.com"
+                android:textColor="@android:color/black"
+                android:textSize="13dp" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
